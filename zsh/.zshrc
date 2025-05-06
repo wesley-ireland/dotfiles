@@ -38,6 +38,3 @@ alias py='python3'
 ### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
 export PATH="/Users/wireland/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
-
-# GNU Stow
-export STOW_DIR="$HOME/code/wes/dotfiles"
