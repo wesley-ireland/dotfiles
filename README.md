@@ -1,13 +1,22 @@
 # dotfiles
-Some of my dotfiles 
+Some of my dotfiles. This repo leverages [stow](https://www.gnu.org/software/stow/) to manage the symlinks in the home directory.
 
-## Using the bare git repo
-I have a directory for this repo on my machine `~/code/wireland/dotfiles`. This corresponds to the aliased command `dotfiles` in my `.bash_profile` config, which is effectively a `git` alias for this repo.
-
-You can use this aliased git command from any directory and it targets the dotfiles repo. So, if I'm deep in a project directory but I wanted to add a dotfile in my home directory, all I would have to do is:
-
-```
-dotfiles add ~/.example_dotfile
-dotfiles commit -m ".example_dotfile"
-dotfiles push
-```
+## Usage
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/dotfiles.git
+    ```
+2. Change into the directory:
+3. ```bash
+   cd dotfiles
+   ```
+4. Use stow to create symlinks:
+   ```bash
+    stow <package>
+    ```
+    Replace `<package>` with the name of the package you want to stow (e.g., `zsh`, `vim`, etc.).
+   For example, to stow the `zsh` package:
+   ```bash
+   stow zsh
+   ```
+This will create the dotfiles as symlinks, so you can edit them in the `dotfiles` directory and have the changes reflected in your home directory, where they are expected to be.
