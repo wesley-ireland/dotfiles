@@ -26,6 +26,7 @@ alias coverage='mvn test -P coverage; mvn jacoco:report -P coverage; echo file:/
 alias gs='git status'
 alias gpl='git pull'
 alias gps='git push'
+alias gpuo='git push --set-upstream origin'
 alias ga='git add'
 alias gcm='git commit -m'
 alias gb='git branch'
