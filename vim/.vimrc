@@ -12,6 +12,5 @@ set undofile " ............................................
 set incsearch " ........................................... highlights / search matches as you type
 set number " .............................................. show line number
 set relativenumber " ...................................... show relative line numbers
-set colorcolumn=120 " ..................................... sets a visual cue at 120 characters for max line width
-highlight ColorColumn ctermbg=grey guibg=lightgrey " ...... sets the style of the max width column
-
+" set colorcolumn=120 " ..................................... sets a visual cue at 120 characters for max line width
+" highlight ColorColumn ctermbg=grey guibg=lightgrey " ...... sets the style of the max width column
