@@ -4,6 +4,9 @@
 # Rust package manager (cargo)
 . "$HOME/.cargo/env"
 
+# z (directory jumping)
+. $HOMEBREW_PREFIX/etc/profile.d/z.sh
+
 # nodejs local directory binaries
 export PATH="./node_modules/.bin:$PATH"
 
