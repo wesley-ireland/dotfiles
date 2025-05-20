@@ -1,8 +1,8 @@
 # asdf
-. $(brew --prefix asdf)/libexec/asdf.sh
+# . $(brew --prefix asdf)/libexec/asdf.sh
 
 # Rust package manager (cargo)
-. "$HOME/.cargo/env"
+# . "$HOME/.cargo/env"
 
 # nodejs local directory binaries
 export PATH="./node_modules/.bin:$PATH"
