@@ -1,0 +1,8 @@
+# For config options, see section 5 of the manual: `man 5 wofi`
+mode=drun # Only show applications
+prompt=Search
+matching=fuzzy
+insensitive=true
+allow_images=true
+term=kitty
+width=800
