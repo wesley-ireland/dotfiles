@@ -71,6 +71,9 @@ alias l='eza -la --group-directories-first --color=always --git-ignore'
 # Make a directory and enter it
 alias mkcd='function mkdircd() { mkdir -p "$1" && cd "$1"; }; mkdircd'
 
+# zoxide
+alias z='zoxide'
+
 # Use z to jump to a directory and print its path
 alias zp='function zpwd() { z "$1" && pwd; }; zpwd'
 
