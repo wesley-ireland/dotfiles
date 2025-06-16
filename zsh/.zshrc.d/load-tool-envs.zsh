@@ -18,3 +18,12 @@ export PATH="$HOME/.oktaws/bin:$PATH"
 
 # Rancher Desktop
 export PATH="/Users/wireland/.rd/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/Users/wireland/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
+
