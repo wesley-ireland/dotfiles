@@ -1,3 +1,7 @@
+#####################################################
+### Helpful shorthands for common developer tools ###
+#####################################################
+
 # Git
 alias gs='git status'
 alias gpl='git pull'
@@ -18,3 +22,23 @@ alias coverage='mvn test -P coverage; mvn jacoco:report -P coverage; echo file:/
 
 # Python
 alias py='python3'
+
+
+#################################################
+### Linux CLI Tool Replacements and Shortcuts ###
+#################################################
+
+# Eza (ls replacement) with some defaults
+alias l='eza -la --group-directories-first --color=always --git-ignore'
+
+# Make a directory and enter it
+alias mkcd='function mkdircd() { mkdir -p "$1" && cd "$1"; }; mkdircd'
+
+# Use z to jump to a directory and print its path
+alias zp='function zpwd() { z "$1" && pwd; }; zpwd'
+
+# ripgrep (grep replacement) enable hidden (dot) files by default
+alias rg='rg --hidden'
+
+# Bat (cat replacement)
+## Fzf (fuzzy finder)
